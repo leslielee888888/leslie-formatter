@@ -1,0 +1,24 @@
+{
+  "name": "leslie-formatter",
+  "version": "0.0.3",
+  "main": "index.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "prepublish": "tsc"
+  },
+  "dependencies": {
+    "@angular/common": "^6.0.2",
+    "@angular/core": "^6.0.2",
+    "@angular/forms": "^6.0.0",
+    "rxjs": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/core-js": "~0.9.35",
+    "typescript": "~2.7.2"
+  }
+}
